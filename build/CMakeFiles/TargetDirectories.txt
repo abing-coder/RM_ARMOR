@@ -1,0 +1,3 @@
+C:/Users/ASUS/Desktop/lightbar_derection/build/CMakeFiles/lightbar_detection.dir
+C:/Users/ASUS/Desktop/lightbar_derection/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/Desktop/lightbar_derection/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\LIGHTBAR_DERECTION\BUILD\CMAKEFILES\A0920F1B9ACA55A900D8F5641CD23352\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/lightbar_derection -BC:/Users/ASUS/Desktop/lightbar_derection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ASUS/Desktop/lightbar_derection/build/lightbar_detection.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
