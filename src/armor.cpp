@@ -65,7 +65,7 @@ void detect_lightbar(const cv::Mat& binary_img, const cv::Mat& img)
     cv::findContours(binary_img, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
     std::cout << "contours:" << contours.size() << std::endl; 
-    // 遍历所有轮廓
+    
     for(const auto contour : contours)
     {
         auto area = cv::contourArea(contour);
